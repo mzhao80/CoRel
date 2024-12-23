@@ -1,0 +1,70 @@
+seafood 
+burger 
+salad 
+dessert 
+ice_cream 
+cake 
+pastries 
+seafood shellfish 
+burger cheeseburger 
+salad mixed_greens 
+dessert creme_brulee 
+icecream soft_serve 
+cake buttercream 
+pastries baked_goods 
+seafood shellfish king_crab 
+burger cheeseburger fries 
+salad mixed_greens dressing 
+dessert cheesecake creme_brulee 
+ice_cream icecream soft_serve 
+cake buttercream icing 
+pastries baked_goods croissants 
+seafood shellfish clams king_crab 
+burger cheeseburger turkey_burger hamburger 
+mixed_greens balsamic_vinaigrette salad spring_mix 
+creme_brulee dessert mousse chocolate_cake 
+icecream soft_serve ice_cream sundae 
+cake buttercream icing frosting 
+pastries baked_goods croissants danishes 
+seafood shellfish clams mussels king_crab 
+burger cheeseburger turkey_burger hamburger burgers 
+salad mixed_greens balsamic_vinaigrette dressing spring_mix 
+dessert chocolate cheesecake chocolate_cake mousse 
+ice_cream icecream soft_serve sundae vanilla 
+cake buttercream frosting icing cupcake 
+pastries baked_goods croissants danishes tarts 
+seafood shellfish shrimp mussels clams lobster 
+burger cheeseburger fries burgers turkey_burger hamburger 
+salad mixed_greens balsamic_vinaigrette spring_mix dressing romaine 
+dessert chocolate mousse creme_brulee cheesecake chocolate_cake 
+ice_cream icecream soft_serve sundae vanilla cookie_dough 
+cake buttercream frosting icing cupcake cream_cheese_frosting 
+pastries baked_goods croissants danishes tarts scones 
+seafood shellfish clams king_crab mussels crab_legs cioppino 
+burger cheeseburger turkey_burger hamburger burger_patty burgers priest 
+salad mixed_greens balsamic_vinaigrette spring_mix romaine dressing romaine_lettuce 
+dessert chocolate creme_brulee mousse cheesecake chocolate_cake pudding 
+ice_cream icecream soft_serve sundae vanilla cookie_dough sundaes 
+cake buttercream frosting icing cupcake cream_cheese_frosting cupcakes 
+pastries baked_goods croissants danishes tarts scones macaroons 
+seafood shellfish king_crab clams mussels cioppino shrimp crab_legs 
+burger cheeseburger turkey_burger hamburger burger_patty priest burgers pretzel_bun 
+salad balsamic_vinaigrette mixed_greens spring_mix romaine dressing house_dressing romaine_lettuce 
+dessert creme_brulee chocolate mousse cheesecake chocolate_cake souffl pudding 
+ice_cream icecream soft_serve sundae vanilla cookie_dough sundaes waffle_cone 
+cake frosting buttercream icing cupcake cream_cheese_frosting cupcakes red_velvet 
+pastries baked_goods croissants danishes tarts scones macaroons sweets 
+seafood shellfish king_crab clams shrimp mussels cioppino crab_legs lobster 
+burger cheeseburger turkey_burger hamburger priest burger_patty pretzel_bun smash_fries burgers 
+salad mixed_greens balsamic_vinaigrette spring_mix romaine dressing house_dressing romaine_lettuce balsamic_dressing 
+dessert mousse creme_brulee chocolate chocolate_cake cheesecake souffl pudding flourless_chocolate_cake 
+ice_cream icecream soft_serve sundae vanilla cookie_dough waffle_cone sundaes custard 
+cake frosting buttercream icing cupcake cream_cheese_frosting cupcakes red_velvet red_velvet_cupcake 
+pastries baked_goods croissants tarts danishes scones macaroons sweets bakery 
+seafood shellfish king_crab clams cioppino mussels shrimp crab_legs snow_crab_legs scallops 
+burger cheeseburger turkey_burger hamburger priest burger_patty pretzel_bun burgers smash_fries onion_rings 
+salad balsamic_vinaigrette mixed_greens spring_mix dressing romaine romaine_lettuce house_dressing balsamic_dressing croutons 
+dessert mousse creme_brulee chocolate chocolate_cake souffl cheesecake flourless_chocolate_cake pudding chocolate_brownie 
+ice_cream icecream soft_serve sundae vanilla cookie_dough waffle_cone sundaes hot_fudge custard 
+cake frosting buttercream icing cupcake cream_cheese_frosting cupcakes red_velvet_cupcake red_velvet wedding_cake 
+pastries baked_goods croissants danishes tarts macaroons scones bakery sweets quiches 

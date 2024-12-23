@@ -6,3 +6,6 @@ yelp/sentences-001.json
 yelp/sentences_.txt
 yelp/.DS_Store
 .DS_Store
+myenv/
+yelp/sentences.json
+yelp/emb_part_des_s.txt
