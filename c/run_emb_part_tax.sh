@@ -4,7 +4,7 @@ dataset=../yelp
 # text file name; one document per line
 text_file=phrase_text.txt
 
-topic_file=topics_des.txt
+topic_file=des
 
 output_file=${topic_file}
 
