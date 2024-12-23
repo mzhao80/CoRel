@@ -1,2 +1,8 @@
 *.zip
 AutoPhrase0/
+yelp/BERTembed.txt
+yelp/phrase_text.txt
+yelp/sentences-001.json
+yelp/sentences_.txt
+yelp/.DS_Store
+.DS_Store
