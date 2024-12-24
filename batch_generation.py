@@ -20,7 +20,6 @@ def process_training_data(sentences, rep_words, topic_hier, max_seq_length, ent_
     
     for parent in parent_list:
         for child in topic_hier[parent]:
-#             print(child)
             count = 10
             for b in rep_words[child]:
                 if b not in ent_sent_index:
@@ -35,6 +34,8 @@ def process_training_data(sentences, rep_words, topic_hier, max_seq_length, ent_
                         if b not in real_rep_words[child]:
                             real_rep_words[child].append(b)  
                         for sen in cooccur:
+                            if sen not in sentences:  # Skip if sentence index doesn't exist
+                                continue
                             sentences_index.append(sen)
                             s = sentences[sen]
                             s = '[CLS] '+s
@@ -213,6 +214,8 @@ def process_test_data(sentences, test_topic_rep_words, test_cand, max_seq_length
             cooccur = ent_sent_index[a].intersection(ent_sent_index[b])
             if len(cooccur) > 0:
                 for sen in cooccur:
+                    if sen not in sentences:  # Skip if sentence index doesn't exist
+                        continue
                     s = sentences[sen]
                     s = '[CLS] '+s
                     s = s.split(' ')
