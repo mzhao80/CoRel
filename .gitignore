@@ -9,3 +9,7 @@ yelp/.DS_Store
 myenv/
 yelp/sentences.json
 yelp/emb_part_des_s.txt
+dblp/BERTembed.txt
+dblp/phrase_text.txt
+dblp/sentences.json
+dblp/sentences_.txt

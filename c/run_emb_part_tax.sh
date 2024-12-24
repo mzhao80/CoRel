@@ -1,10 +1,10 @@
 # dataset directory
-dataset=../yelp
+dataset=../dblp
 
 # text file name; one document per line
 text_file=phrase_text.txt
 
-topic_file=des
+topic_file=field
 
 output_file=${topic_file}
 

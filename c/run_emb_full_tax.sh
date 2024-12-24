@@ -1,5 +1,5 @@
 # dataset directory
-dataset=yelp
+dataset=dblp
 
 # text file name; one document per line
 text_file=phrase_text.txt

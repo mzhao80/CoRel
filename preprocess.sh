@@ -1,6 +1,6 @@
 #!/bin/bash
 
-dataset=yelp
+dataset=dblp
 num_thread=20
 multi=0.75
 single=0.65
