@@ -56,16 +56,9 @@ if __name__ == "__main__":
     # sentences_.txt: sentence id to text
     sentences = dict()
     with open(dataset+'/sentences_.txt') as f:
-        for line in f:
-            sentences[len(sentences)] = line  # Use the actual sentence ID as key
+        for i,line in enumerate(f):
+            sentences[i] = line
             
-    # Map the old sentence IDs to new ones
-    id_map = {i: i for i in range(len(sentences))}
-    
-    # Update ent_sent_index with new IDs
-    for ent in ent_sent_index:
-        ent_sent_index[ent] = {id_map[int(x)] for x in ent_sent_index[ent] if int(x) in id_map}
-
     ent_ent_index = dict()
     with open(dataset+'/ent_ent_index.txt') as f:
         for line in f:
@@ -426,3 +419,4 @@ if __name__ == "__main__":
                     fout.write(' '.join(cls)+'\n')
 
             
+

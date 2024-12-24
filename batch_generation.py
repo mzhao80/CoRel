@@ -19,22 +19,29 @@ def process_training_data(sentences, rep_words, topic_hier, max_seq_length, ent_
     print("collecting positive samples!")
     
     for parent in parent_list:
+        print(f"\nProcessing parent: {parent}")
+        print(f"Representative words: {rep_words[parent]}")
         for child in topic_hier[parent]:
+            print(f"  Child: {child}")
+            print(f"  Child rep words: {rep_words[child]}")
             count = 10
             for b in rep_words[child]:
                 if b not in ent_sent_index:
+                    print(f"    Child word {b} not in ent_sent_index")
                     continue
                 for a in rep_words[parent]:
                     if a not in ent_sent_index:
+                        print(f"    Parent word {a} not in ent_sent_index")
                         continue
                     cooccur = ent_sent_index[a].intersection(ent_sent_index[b])
+                    print(f"    Checking co-occurrence of {a} and {b}: {len(cooccur)} sentences")
                     if len(cooccur) > 0:
                         if a not in real_rep_words[parent]:
                             real_rep_words[parent].append(a)
                         if b not in real_rep_words[child]:
                             real_rep_words[child].append(b)  
                         for sen in cooccur:
-                            if sen not in sentences:  # Skip if sentence index doesn't exist
+                            if sen not in sentences:  # Skip if sentence ID doesn't exist
                                 continue
                             sentences_index.append(sen)
                             s = sentences[sen]
@@ -214,7 +221,7 @@ def process_test_data(sentences, test_topic_rep_words, test_cand, max_seq_length
             cooccur = ent_sent_index[a].intersection(ent_sent_index[b])
             if len(cooccur) > 0:
                 for sen in cooccur:
-                    if sen not in sentences:  # Skip if sentence index doesn't exist
+                    if sen not in sentences:  # Skip if sentence ID doesn't exist
                         continue
                     s = sentences[sen]
                     s = '[CLS] '+s
