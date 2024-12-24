@@ -7,13 +7,12 @@ class RelationClassifer(BertPreTrainedModel):
 
     def __init__(self, config):
         super(RelationClassifer, self).__init__(config)
-#       super().__init__(config)
         self.num_labels = 3
 
         self.bert = BertModel(config)
         self.dropout = nn.Dropout(config.hidden_dropout_prob)
         self.classifier = nn.Linear(config.hidden_size * 2, self.num_labels)
-        self.apply(self.init_weights)
+        self.init_weights()
 
 #       self.init_weights()
 
@@ -65,4 +64,3 @@ class RelationClassifer(BertPreTrainedModel):
             return logits
 
         return outputs  
-
